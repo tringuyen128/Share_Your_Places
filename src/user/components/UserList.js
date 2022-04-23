@@ -1,5 +1,4 @@
 import React from 'react'
-import Users from '../pages/Users'
 import UserItem from './UserItem'
 import './UserList.css'
 
@@ -9,7 +8,7 @@ const UserList = (props) => {
   if (props.items.length === 0) {
     return (
       <div className="center">
-        <h2>No user found.</h2>
+        <h2>no user found.</h2>
       </div>
     )
   }
